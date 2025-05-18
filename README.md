@@ -1,26 +1,67 @@
-# Raylib C++ Starter Template
 
-Raylib C++ Starter Template for Visual Studio Code on Windows.
+# Öğrenci Simülasyonu Oyunu 
 
-This demo project contains a bouncing ball raylib example program.
+Raylib ve C++ kullanılarak geliştirilmiş 2D bir öğrenci simülasyonu oyunudur. Oyuncu, günlük hayatında enerji, başarı, mutluluk gibi statları dengede tutarak mezun olmaya çalışır.
 
-It works with raylib version 4.5.
-Tested on both Windows 10 and Windows 11.
+## Oynanış
 
-# Video Tutorial
+- Ders çalış, dışarı çık, yemek ye, uyu gibi aktivitelerle statlarını yönet
+- Her hafta sınav, her dönem mezuniyet şartı
+- Mini oyun: Dinozor runner
+- Rastgele olaylar: sosyal, sağlık, başarı etkileri
 
-<p align="center">
-  <img src="preview.jpg" alt="" width="800">
-</p>
+## Kullanılan Teknolojiler
 
-<p align="center">
-🎥 <a href="https://www.youtube.com/watch?v=PaAcVk5jUd8">Video Tutorial on YouTube</a>
-</p>
+- `C++`
+- `Raylib`
+- `OOP` yapısı (her sınıf ayrı dosyada)
+- `Git` ve `GitHub` ile sürüm kontrol
 
-<br>
-<br>
-<p align="center">
-| 📺 <a href="https://www.youtube.com/channel/UC3ivOTE5EgpmF2DHLBmWIWg">My YouTube Channel</a>
-| 🌍 <a href="https://www.programmingwithnick.com">My Website</a> | <br>
-</p>
+## Ekran Görüntüleri
 
+> Buraya PNG dosyaları eklenmelidir ("assets/screenshots" klasörü)
+
+```markdown
+![1 - Menü Ekranı](assets/screenshots/1.png)
+![2 - Okul Menüsü](assets/screenshots/2.png)
+![3 - Ana Oyun Ekranı](assets/screenshots/3.png)
+![4 - Dışarı Aktiviteleri](assets/screenshots/4.png)
+![5 - Gün Bitirme Seçeneği](assets/screenshots/5.png)
+![6 - Düşük Stat ile Ders Engeli](assets/screenshots/6.png)
+![7 - Yemek Menüsü](assets/screenshots/7.png)
+![8 - Yemek ve Stat Değişimi](assets/screenshots/8.png)
+![9 - Sosyalleşmede Random Event](assets/screenshots/9.png)
+![10 - Sınav Günü](assets/screenshots/10.png)
+```
+
+## Katkıda Bulunanlar
+
+- **Alican Tin** – Kodlama ve oyun mekaniği
+- **Yelda Çoğal** – Tüm görsellerin çizimi ve sprite animasyonlar, kodlama
+
+## 📁 Dosya Yapısı
+
+```
+/ (ana klasör)
+├── main.cpp
+├── PlayerStats.h / PlayerStats.cpp
+├── EventManager.h / EventManager.cpp
+├── InteractableObject.h / InteractableObject.cpp
+├── GameEvent.h
+├── ClampUtils.h
+├── GameState.h
+├── PlayerType.h
+├── StatChangePopup.h
+├── assets/
+│   ├── backgrounds/
+│   ├── animations/
+│   ├── objects/
+│   ├── screenshots/
+│   └── (PNG görseller)
+```
+
+## Teslim Bilgisi
+
+- Ders: CENG 220 Programlama Dilleri Laboratuvarı
+- Teslim tarihi: 18 Mayıs 2025
+- Proje linki: [GitHub Linki buraya eklenecek]
