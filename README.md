@@ -64,4 +64,4 @@ Raylib ve C++ kullanılarak geliştirilmiş 2D bir öğrenci simülasyonu oyunud
 
 - Ders: CENG 220 Programlama Dilleri Laboratuvarı
 - Teslim tarihi: 18 Mayıs 2025
-- Proje linki: [GitHub Linki buraya eklenecek]
+- Proje linki: [[GitHub Linki buraya eklenecek]](https://github.com/alican-tin/ogrenci-simulasyonu)
