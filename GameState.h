@@ -1,0 +1,27 @@
+
+#pragma once
+
+enum GameState {
+    STATE_MAIN_MENU,
+    STATE_PLAYING,
+    STATE_CONFIRM_SLEEP,
+    STATE_OUTSIDE_MENU,
+    STATE_EAT_MENU,
+    STATE_SCHOOL_MENU,
+    STATE_SLEEP_ANIMATION,
+    STATE_EXIT
+};
+
+enum CustomState {
+    STATE_MAIN_LOOP,
+    STATE_CONFIRM_MINIGAME,
+    STATE_MINIGAME
+};
+
+enum ActionType {
+    ACTION_SLEEP,
+    ACTION_EAT,
+    ACTION_STUDY,
+    ACTION_PLAY,
+    ACTION_OUTSIDE
+};
